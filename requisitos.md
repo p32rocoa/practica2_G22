@@ -9,7 +9,7 @@
 
 ### **Extracción de requisitos**
 <br>
-#### **Partes interesadas:**
+#### **Partes interesadas:**<br>
 - Profesores
 
 #### **Datos a almacenar de los alumnos:**
