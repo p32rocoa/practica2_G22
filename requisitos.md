@@ -65,3 +65,33 @@
 
 
   + **RF-10:** Habrá una opción que permita borrar a todos los alumnos almacenados.
+
+
+#### **Requisitos no funcionales:**
+
+  + **RNF-1:** La aplicación permitirá almacenar un máximo de 150 alumnos.
+
+
+  + **RNF-2:** Todos los campos a introducir son obligatorios excepto el grupo y el rol en este.
+
+
+  + **RNF-3:** Los datos podrán ser recuperados en el caso de que algo interrumpa la ejecución de la aplicación.
+
+
+  + **RNF-4:** Los datos se guardarán en un fichero binario.
+
+
+  + **RNF-5:** El guardado de los datos en el fichero podrá ser manual o automático.
+
+
+  + **RNF-6:** Los grupos formados por el alumnado deben tener, estrictamente, un líder.
+    - **RNF-6.1:** Si alguna acción o función hace que un grupo se quede sin líder, otro alumno tomará dicho rol antes de que esta termine.
+
+
+  + **RNF-7:** La aplicación funcionará bajo una interfaz por línea de comandos u órdenes (CLI).
+
+
+  + **RNF-8:** Las impresiones se realizarán en archivos Markdown o HTML.
+
+
+  + **RNF-9:** La aplicación debe funcionar en el sistema operativo GNU/Linux.
