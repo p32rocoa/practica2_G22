@@ -1,7 +1,7 @@
 ### **(Anverso)**
-**ID:** 001 **Buscar alumnos**
+**ID:** 001 **Ver alumnos**
 ---
-Quiero poder buscar a un alumno dentro del programa
+Quiero poder ver a un alumno dentro del programa
 
 **Prioridad:** 3
 ---
@@ -10,6 +10,7 @@ Quiero poder buscar a un alumno dentro del programa
 
 + Quiero poder visualizar todos los datos del alumnos
 + Quiero poder buscarlo por DNI o Apellidos
++ Los detalles del alumno serán impresos en un archivo con formato markdown.
 
 ---
 
@@ -103,18 +104,4 @@ Quiero poder poder cerrar el programa y no perder los cambios
 + Quiero poder guardar los cambios de forma manual
 + Quiero poder guardar los cambios automáticamente
 + La información se almacenará en un fichero binario
----
-
-
-### **(Anverso)**
-**ID:** 008 **Imprimir alumno**
----
-Quiero poder imprimir los detalles de un alumno
-
-**Prioridad:** 3
----
-### **(Reverso)**
----
-
-+ Los detalles del alumno serán impresos en un archivo con formato markdown.
 ---
