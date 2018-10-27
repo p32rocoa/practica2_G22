@@ -1,4 +1,4 @@
-### **Ver alumnos**
+### **Ver alumnos** ##
 **ID: ** 001 <br>
 **Breve descripción: ** Muestra a un alumno inscrito en el programa.
 
