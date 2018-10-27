@@ -44,3 +44,47 @@
 + Se repiten datos irrepetibles y se muestra un mensaje de error
 
 ---
+### **Listar alumnos**
+**ID:** 003 <br>
+**Breve descripción:** Muestra toda la lista de alumnos
+
+**Actores principales:** Profesor <br>
+**Actores secundarios:** Alumno
+
+**Precondiciones:**
++ Debe existir al menos un alumno en el sistema
+
+**Flujo principal:**
++ El caso comienza cuando el sistema necesita mostrar la lista de alumnos
++ El sistema pide al proesor en qué orden los quiere mostrar
+
+**Postcondiciones:**
++ Se ordenan los alumnos y se muestran en orden
+
+**Flujos alternativos:**
++ No existe ningún alumno en la aplicación y se muestra un mensaje de error
+
+---
+### **Borrar alumnos**
+**ID:** 004 <br>
+**Breve descripción:** Borra un alumno insciro en el programa
+
+**Actores principales:** Profesor <br>
+**Actores secundarios:** Alumno
+
+**Precondiciones:**
++ El alumno debe existir en el sistema
++ El profesor debe conocer uno de los datos identificativos del alumno, (DNI, apellidos)
+
+**Flujo principal:**
++ El caso comienza cuando el sistema necesita borrar el alumno que el profesor especifique
++ El sistema recoge los datos que el profesor introduce para encontrar al alumno y posteriormente borrarlo
+
+**Postcondiciones:**
++ Se encuentra alumno y se borra del sistema
+
+**Flujos alternativos:**
++ El alumno no se encuentra o no existe y se muestra un mensaje de error
++ Al especificar los apellidos del alumno, hay más de uno con los mismos y se da a elegir por DNI.
+
+---
