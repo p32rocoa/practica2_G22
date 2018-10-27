@@ -3,7 +3,7 @@
 ---
 Quiero poder ver a un alumno dentro del programa
 
-**Prioridad:** 3
+**Prioridad:** 2
 ---
 ### **(Reverso)**
 ---
@@ -19,7 +19,7 @@ Quiero poder ver a un alumno dentro del programa
 ---
 Quiero poder modificar los datos de un alumno
 
-**Prioridad:** 3
+**Prioridad:** 4
 ---
 ### **(Reverso)**
 ---
@@ -34,7 +34,7 @@ Quiero poder modificar los datos de un alumno
 ---
 Quiero poder ver a todos los alumnos por orden
 
-**Prioridad:** 3
+**Prioridad:** 2
 ---
 ### **(Reverso)**
 ---
@@ -64,7 +64,7 @@ Quiero poder borrar a un alumno
 ---
 Quiero poder ver a todos los alumnos por orden
 
-**Prioridad:** 3
+**Prioridad:** 1
 ---
 ### **(Reverso)**
 ---
@@ -81,7 +81,7 @@ Quiero poder ver a todos los alumnos por orden
 ---
 Quiero poder ver a todos los alumnos de un grupo
 
-**Prioridad:** 3
+**Prioridad:** 5
 ---
 ### **(Reverso)**
 ---
@@ -94,9 +94,24 @@ Quiero poder ver a todos los alumnos de un grupo
 ### **(Anverso)**
 **ID:** 007 **Guardar cambios**
 ---
-Quiero poder poder cerrar el programa y no perder los cambios
+Quiero poder cerrar el programa y no perder los cambios
 
 **Prioridad:** 3
+---
+### **(Reverso)**
+---
+
++ Quiero poder guardar los cambios de forma manual
++ Quiero poder guardar los cambios automáticamente
++ La información se almacenará en un fichero binario
+---
+
+### **(Anverso)**
+**ID:** 008 **Eliminar todos los alumnos**
+---
+Quiero poder eliminar a todos los alumnos de golpe
+
+**Prioridad:** 1
 ---
 ### **(Reverso)**
 ---
