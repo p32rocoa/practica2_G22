@@ -150,3 +150,22 @@
 + No hay cambios en la base de datos y el programa no hace nada
 
 ---
+### **Resetear alumnos**
+**ID:** 007 <br>
+**Breve descripción:** Elimina todos los alumnos de la base de datos del programa
+**Actores principales:** Profesor <br>
+**Actores secundarios:** Alumno
+
+**Precondiciones:**
++ Debe existir algún alumno en la base de datos
+
+**Flujo principal:**
++ El profesor activa el botón de borrado
+
+**Postcondiciones:**
++ Los alumnos son borrados y la base de datos se guarda vacía
+
+**Flujos alternativos:**
++ No hay alumnos en la base de datos y se muestra un mensaje de error
+
+---
